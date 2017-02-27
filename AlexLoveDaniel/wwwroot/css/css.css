@@ -1,0 +1,32 @@
+﻿body {
+    background-color: #AF2233;
+}
+
+table, th, td {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    border-collapse: collapse;
+    border: 1px;
+    border-style: solid;
+}
+
+td {
+    background-color: white;
+}
+
+th {
+    font-size: 20px;
+    background-color: #999999;
+}
+
+
+a {
+    color: ghostwhite;
+    border-width: 5px;
+    border-style: solid;
+    border-color: Highlight;
+    border-bottom-color: yellow;
+    border-top-color: forestgreen;
+    background-color: black;
+}

@@ -1,0 +1,11 @@
+C:\Users\lovew\OneDrive\Dokument\Programmering\ASP.Net\AlexLoveDaniel\AlexLoveDaniel\bin\Debug\netcoreapp1.1\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\lovew\OneDrive\Dokument\Programmering\ASP.Net\AlexLoveDaniel\AlexLoveDaniel\bin\Debug\netcoreapp1.1\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\lovew\OneDrive\Dokument\Programmering\ASP.Net\AlexLoveDaniel\AlexLoveDaniel\bin\Debug\netcoreapp1.1\AlexLoveDaniel.deps.json
+C:\Users\lovew\OneDrive\Dokument\Programmering\ASP.Net\AlexLoveDaniel\AlexLoveDaniel\bin\Debug\netcoreapp1.1\AlexLoveDaniel.runtimeconfig.json
+C:\Users\lovew\OneDrive\Dokument\Programmering\ASP.Net\AlexLoveDaniel\AlexLoveDaniel\bin\Debug\netcoreapp1.1\AlexLoveDaniel.runtimeconfig.dev.json
+C:\Users\lovew\OneDrive\Dokument\Programmering\ASP.Net\AlexLoveDaniel\AlexLoveDaniel\bin\Debug\netcoreapp1.1\AlexLoveDaniel.dll
+C:\Users\lovew\OneDrive\Dokument\Programmering\ASP.Net\AlexLoveDaniel\AlexLoveDaniel\obj\Debug\netcoreapp1.1\AlexLoveDaniel.csprojResolveAssemblyReference.cache
+C:\Users\lovew\OneDrive\Dokument\Programmering\ASP.Net\AlexLoveDaniel\AlexLoveDaniel\obj\Debug\netcoreapp1.1\AlexLoveDaniel.AssemblyInfo.cs
+C:\Users\lovew\OneDrive\Dokument\Programmering\ASP.Net\AlexLoveDaniel\AlexLoveDaniel\bin\Debug\netcoreapp1.1\AlexLoveDaniel.pdb
+C:\Users\lovew\OneDrive\Dokument\Programmering\ASP.Net\AlexLoveDaniel\AlexLoveDaniel\obj\Debug\netcoreapp1.1\AlexLoveDaniel.dll
+C:\Users\lovew\OneDrive\Dokument\Programmering\ASP.Net\AlexLoveDaniel\AlexLoveDaniel\obj\Debug\netcoreapp1.1\AlexLoveDaniel.pdb

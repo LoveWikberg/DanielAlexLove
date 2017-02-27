@@ -1,0 +1,29 @@
+﻿@using AlexLoveDaniel.Models
+@model Person
+@addTagHelper*,Microsoft.AspNetCore.Mvc.TagHelpers
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit</title>
+</head>
+<body>
+
+    <form asp-controller="Persons" asp-action="Edit">
+        <label asp-for="Id"></label>
+        <input asp-for="Id" min="1" max="@DataManager.persons.Count" />
+        <span asp-validation-for="Id"></span>
+        <br />
+        <label asp-for="Name"></label>
+        <input asp-for="Name" />
+        <span asp-validation-for="Name"></span>
+        <br />
+        <label asp-for="Email"></label>
+        <input asp-for="Email" />
+        <span asp-validation-for="Email"></span>
+        <br />
+        <input type="submit" value="OK GO" />
+    </form>
+
+</body>
+</html>

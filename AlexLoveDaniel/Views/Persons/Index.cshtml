@@ -1,0 +1,32 @@
+﻿@using AlexLoveDaniel.Models
+@model Person[]
+@addTagHelper*,Microsoft.AspNetCore.Mvc.TagHelpers
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Index</title>
+    <link rel="stylesheet" href="~/css/css.css" />
+</head>
+<body align="center">
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>E-mail</th>
+        </tr>
+        @foreach (var person in Model)
+        {
+            <tr>
+                <td>@person.Id</td>
+                <td>@person.Name</td>
+                <td>@person.Email</td>
+            </tr>
+        }
+    </table>
+    <br />
+    <a asp-controller="Persons" asp-action="Create">Create</a>
+    <a asp-controller="Persons" asp-action="Edit">Edit</a>
+</body>
+</html>
