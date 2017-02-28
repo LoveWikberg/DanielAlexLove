@@ -13,7 +13,7 @@ namespace AlexLoveDaniel.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            var models = DataManager.GetAllPersons();
+            var models = DataManager.GetIndexList();
             return View(models);
         }
 
@@ -24,13 +24,13 @@ namespace AlexLoveDaniel.Controllers
         }
 
         [HttpPost]
-        public IActionResult Create(Person person)
+        public IActionResult Create(PersonCreateVM viewModel)
         {
             if(!ModelState.IsValid)
             {
-                return View(person);
+                return View(viewModel);
             }
-            DataManager.AddPerson(person);
+            DataManager.AddPerson(viewModel);
             return RedirectToAction(nameof(PersonsController.Index));
         }
 

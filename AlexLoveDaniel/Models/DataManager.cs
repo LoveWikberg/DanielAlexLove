@@ -10,13 +10,18 @@ namespace AlexLoveDaniel.Models
         public static List<Person> persons = new List<Person>
         {
             new Person {Id = 1, Name = "Ronny", Email = "ronkan@gangster.com"},
-            new Person {Id = 2, Name = "Ponny", Email = "häst@stall.nu"},
+            new Person {Id = 2, Name = "Ponny", Email = "häst@acme.com"},
             new Person {Id = 3, Name = "Pekka", Email = "karhu@bastu.fin"},
         };
 
-        internal static void AddPerson(Person person)
+        internal static void AddPerson(PersonCreateVM viewModel)
         {
-            person.Id = persons.Max(c => c.Id) + 1;
+            Person person = new Person
+            {
+                Email = viewModel.Email,
+                Name = viewModel.Name
+            };
+
             persons.Add(person);
         }
 
@@ -26,9 +31,19 @@ namespace AlexLoveDaniel.Models
             persons[person.Id - 1].Email = person.Email;
         }
 
-        public static Person[] GetAllPersons()
+        public static PersonIndexVM[] GetIndexList()
         {
-            return persons.ToArray();
+            return persons.Select(o => new PersonIndexVM
+            {
+                Email = o.Email,
+                Name = o.Name,
+                ShowAsHighlighted = o.Email.EndsWith("acme.com", StringComparison.OrdinalIgnoreCase)
+            }).ToArray();
         }
+
+        //public static Person[] GetAllPersons()
+        //{
+        //    return persons.ToArray();
+        //}
     }
 }

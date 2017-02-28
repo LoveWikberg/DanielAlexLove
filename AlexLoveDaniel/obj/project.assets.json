@@ -21154,10 +21154,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lovew\\OneDrive\\Dokument\\Programmering\\ASP.Net\\AlexLoveDaniel\\DanielAlexLove\\AlexLoveDaniel\\AlexLoveDaniel.csproj",
+      "projectUniqueName": "C:\\Users\\lovew\\OneDrive\\Dokument\\Programmering\\ASP.Net\\NyttTest\\DanielAlexLove\\AlexLoveDaniel\\AlexLoveDaniel.csproj",
       "projectName": "AlexLoveDaniel",
-      "projectPath": "C:\\Users\\lovew\\OneDrive\\Dokument\\Programmering\\ASP.Net\\AlexLoveDaniel\\DanielAlexLove\\AlexLoveDaniel\\AlexLoveDaniel.csproj",
-      "outputPath": "C:\\Users\\lovew\\OneDrive\\Dokument\\Programmering\\ASP.Net\\AlexLoveDaniel\\DanielAlexLove\\AlexLoveDaniel\\obj\\",
+      "projectPath": "C:\\Users\\lovew\\OneDrive\\Dokument\\Programmering\\ASP.Net\\NyttTest\\DanielAlexLove\\AlexLoveDaniel\\AlexLoveDaniel.csproj",
+      "outputPath": "C:\\Users\\lovew\\OneDrive\\Dokument\\Programmering\\ASP.Net\\NyttTest\\DanielAlexLove\\AlexLoveDaniel\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"

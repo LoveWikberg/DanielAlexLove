@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace AlexLoveDaniel.Models
 {
-    public class Person
+    public class PersonCreateVM
     {
-        [Display(Name = "Name")]
         [Required(ErrorMessage = "Enter your name...")]
         public string Name { get; set; }
 
@@ -17,8 +16,6 @@ namespace AlexLoveDaniel.Models
         [EmailAddress(ErrorMessage = "Invalid E-mail")]
         public string Email { get; set; }
 
-        [Display(Name = "Id")]
-        public int Id { get; set; }
-
+        public bool AcceptTerms { get; set; }
     }
 }
